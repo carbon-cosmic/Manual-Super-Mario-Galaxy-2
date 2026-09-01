@@ -3,6 +3,7 @@
   "game": "SuperMarioGalaxy2",
   "creator": "carboncosmic",
   "filler_item_name": "Starbits",
+  "death_link": true,
   "starting_items": [
     {
       "item_categories": [
