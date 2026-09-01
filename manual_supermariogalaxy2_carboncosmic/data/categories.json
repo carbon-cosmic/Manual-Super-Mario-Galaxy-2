@@ -1,0 +1,124 @@
+{
+  "Green Stars": {
+    "yaml_option": [
+      "Green_Stars_Locations"
+    ]
+  },
+  "Power Star Locations": {
+    "hidden": true
+  },
+  "Green Star Locations": {
+    "yaml_option": [
+      "Green_Stars_Locations"
+    ],
+    "hidden": true
+  },
+  "Checkpoints": {
+    "yaml_option": [
+      "Flagsanity"
+    ],
+    "hidden": true
+  },
+  "Checkpoint Flags": {
+    "yaml_option": [
+      "Flagsanity"
+    ],
+    "hidden": true
+  },
+  "Comet Clocks": {
+    "yaml_option": [
+      "Clocksanity"
+    ],
+    "hidden": true
+  },
+  "Speedrun Clocks": {
+    "yaml_option": [
+      "Clocksanity"
+    ],
+    "hidden": false
+  },
+  "Chance Cubes": {
+    "yaml_option": [
+      "Chance_Cubesanity"
+    ],
+    "hidden": true
+  },
+  "Comet Medal Locations": {
+    "hidden": true
+  },
+  "Comet Medals": {
+    "yaml_option": [
+      "Comet_Medal_Items"
+    ],
+    "hidden": false
+  },
+  "Prankster Comet Type": {
+    "yaml_option": [
+      "Prankster_Type_Toggle"
+    ],
+    "hidden": true
+  },
+  "1-Ups": {
+    "yaml_option": [
+      "OneUp_Mushroom_Toggle"
+    ],
+    "hidden": true
+  },
+  "Not 1-Up Mushroom": {
+    "yaml_option": [
+      "Not_OneUp_Mushroom_Toggle"
+    ],
+    "hidden": true
+  },
+  "? Coins": {
+    "yaml_option": [
+      "QCoinsanity"
+    ],
+    "hidden": true
+  },
+  "Life Mushrooms": {
+    "yaml_option": [
+      "Life_Shroomsanity"
+    ],
+    "hidden": true
+  },
+  "Luma Shops": {
+    "yaml_option": [
+      "Luma_Shopsanity"
+    ],
+    "hidden": true
+  },
+  "Power Stars": {
+    "hidden": true
+  },
+  "Luigi": {
+    "yaml_option": [
+      "Unlockable_Luigi"
+    ],
+    "hidden": false
+  },
+  "Powerups": {
+    "yaml_option": [
+      "Powerup_Randomization"
+    ],
+    "hidden": false
+  },
+  "Mechanics": {
+    "yaml_option": [
+      "Mechanic_Randomization"
+    ],
+    "hidden": false
+  },
+  "Purple Coin Locations": {
+    "yaml_option": [
+      "Purple_Coinsanity"
+    ],
+    "hidden": true
+  },
+  "Purple Coins": {
+    "yaml_option": [
+      "Purple_Coinsanity"
+    ],
+    "hidden": false
+  }
+}
