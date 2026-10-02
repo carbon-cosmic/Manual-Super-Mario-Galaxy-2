@@ -10,12 +10,13 @@
       "display_name": "Objective",
       "description": ["The goal of the randomizer.",
         "Options for the final level include: bowers_fortified_fortress, the_ultimate_test, and the_perfect_run.",
-        "Also available is the star_hunt goal, which requires the collection of a chosen number of stars before completion."
+        "Also available is the starship_mario_refueled goal, which requires the collection of a chosen number of stars before completion."
       ],
       "aliases": {
         "bowsers_fortified_fortress": 0,
         "the_ultimate_test": 1,
         "the_perfect_run": 2,
+        "starship_mario_refueled": 3,
         "star_hunt": 3
       },
       "default": 0
@@ -28,7 +29,7 @@
   },
 
   "user": {
-    "Star_Hunt_Star_Count": {
+    "star_hunt_star_count": {
       "display_name": "Star Hunt Star Count",
       "description": [
         "How many stars are needed to goal with Star Hunt.",
@@ -39,7 +40,7 @@
       "default": 70,
       "range_end": 122
     },
-    "Unlockable_Luigi": {
+    "unlockable_luigi": {
       "description": [
         "Include Luigi as an item for unlock.",
         "Note: Luigi's extra high jumps are currently not accounted for in logic."
@@ -49,7 +50,7 @@
       "default": true,
       "group": "Item Options"
     },
-    "Logic_Difficulty": {
+    "logic_difficulty": {
       "description": [
         "The expected difficulty of tricks by logic.",
         "",
@@ -72,7 +73,7 @@
       "default": 0,
       "group": "Randomization Options"
     },
-    "OneUpsanity": {
+    "one_upsanity": {
       "description": [
         "Receive checks for collecting 1-Ups.",
         "",
@@ -92,49 +93,49 @@
         "false": 0,
         "true": 2
       },
-      "default": 0,
+      "default": 1,
       "group": "Randomization Options"
     },
-    "OneUp_Mushroom_Toggle": {
+    "oneup_mushroom_toggle": {
       "type": "Toggle",
       "default": false,
       "visibility": "none"
     },
-    "Not_OneUp_Mushroom_Toggle": {
+    "not_oneup_mushroom_toggle": {
       "type": "Toggle",
       "default": false,
       "visibility": "none"
     },
-    "Life_Shroomsanity": {
+    "life_shroomsanity": {
       "description": [
         "Receive checks for collecting Life Mushrooms."
       ],
       "display_name": "Life Mushroom Checks",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Randomization Options"
     },
-    "Luma_Shopsanity": {
+    "luma_shopsanity": {
       "description": [
         "Receive checks for purchasing from Luma Shops."
       ],
       "display_name": "Luma Shop Checks",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Randomization Options"
     },
 
-    "Chance_Cubesanity": {
+    "chance_cubesanity": {
       "description": [
         "Receive checks for spinning chance cubes."
       ],
       "display_name": "Chance Cube Checks",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Randomization Options"
     },
 
-    "Flagsanity": {
+    "flagsanity": {
       "description": [
         "Receive checks for reaching checkpoint flags."
       ],
@@ -144,7 +145,7 @@
       "group": "Randomization Options"
     },
 
-    "Clocksanity": {
+    "clocksanity": {
       "description": [
         "Receive checks for collecting speedrun clocks."
       ],
@@ -154,25 +155,25 @@
       "group": "Randomization Options"
     },
 
-    "QCoinsanity": {
+    "question_coinsanity": {
       "description": [
         "Receive checks for collecting ? Coins."
       ],
       "display_name": "?-Coin Checks",
       "type": "Toggle",
-      "default": false,
+      "default": true,
       "group": "Randomization Options"
     },
-     "Green_Stars_Locations": {
+    "green_stars_locations": {
       "description": [
         "Recieve checks for collecting Green Stars."
       ],
       "display_name": "Green Star Checks",
       "type": "Toggle",
-      "default": true,
+      "default": false,
       "group": "Randomization Options"
     },
-    "Movement_Randomization": {
+    "movement_randomization": {
       "description": [
         "Mario's movement abilities will be randomized. These are: Spin,",
         "Backflip, Sideflip, Triple Jump, Wall Jump, Long Jump, and Ground Pound.",
@@ -191,18 +192,18 @@
       "default": 2,
       "group": "Item Options"
     },
-    "Progressive_Movement": {
+    "progressive_movement": {
       "description": [
         "Whether Spin and Triple Jump will be split into two Progressive items.",
         "Spin splits into only spinning on the ground and underwater, and then Air Spin.",
         "Triple Jump splits into Double Jump, then Triple Jump.",
-        "When Spin Start is on, it will start with only one Progressive Spin."
+        "When Spin Start is on, you will start with only one Progressive Spin."
       ],
       "type": "Toggle",
       "default": true,
       "group": "Item Options"
     },
-     "Comet_Medal_Items": {
+     "comet_medal_items": {
       "description": [
         "Each galaxy will have its own comet medal item in the multiworld that locks access to its comets."
       ],
@@ -211,7 +212,7 @@
       "default": false,
       "group": "Comet Options"
     },
-    "Comet_Randomization": {
+    "comet_randomization": {
       "description": [
         "How Prankster Comet randomization will be handled.",
         "off: Prankster Comets will be available from the start.",
@@ -228,12 +229,12 @@
       "default": 2,
       "group": "Comet Options"
        },
-    "Prankster_Type_Toggle": {
+    "prankster_type_toggle": {
       "type": "Toggle",
       "default": false,
       "visibility": "none"
     },
-    "Mechanic_Randomization": {
+    "mechanic_randomization": {
       "description": [
         "Access to certain mechanics will be randomized.",
         "These are: Fluzzard, the Star Ball, Pull Stars, Bob-ombs, Floaty Fluff,",
@@ -244,8 +245,7 @@
       "default": true,
       "group": "Item Options"
     },
-
-    "Powerup_Randomization": {
+    "powerup_randomization": {
       "description": [
         "Access to power-ups will be randomized."
       ],
@@ -254,7 +254,7 @@
       "default": true,
       "group": "Item Options"
     },
-    "Galaxy_Generator_Star_Count": {
+    "galaxy_generator_star_count": {
       "type": "Range",
       "description": [
         "The number of stars needed to access Bowser's Galaxy Generator.",
@@ -266,7 +266,7 @@
       "range_end": 122,
       "group": "Game Options"
     },
-    "Grandmaster_Star_Count": {
+    "grandmaster_star_count": {
       "type": "Range",
       "description": [
         "The number of stars needed to access Grandmaster Galaxy.",
@@ -278,7 +278,7 @@
       "range_end": 122,
       "group": "Game Options"
     },
-    "Grandmaster_Green_Count": {
+    "grandmaster_green_count": {
       "type": "Range",
       "description": [
         "The number of green stars need to access Grandmaster Galaxy.",
@@ -291,7 +291,7 @@
       "range_end": 120,
       "group": "Game Options"
     },
-    "Purple_Coinsanity": {
+    "purple_coinsanity": {
       "description": [
         "Receive checks for collecting Purple Coins."
       ],
@@ -300,17 +300,37 @@
       "default": false,
       "group": "Randomization Options"
         },
-    "Purple_Coin_Count": {
+    "purple_coin_count": {
       "type": "Range",
       "description": [
         "How many purple coin items are needed to collect a purple coin star.",
         "Maximum 100, minimum 0. Default is 50.",
-        "Warning: High values can slow down generation"
+        "Warning: High values combined with low coin bundle amounts can slow down generation significantly."
       ],
       "display_name": "Purple Coin Count",
       "range_start": 0,
       "default": 50,
       "range_end": 100,
+      "group": "Randomization Options"
+    },
+    "purple_coin_bundles": {
+      "type": "Choice",
+      "description": [
+        "Whether Purple Coin items should be bundled or not.",
+        "Available values are off (or 1), 5, 10, 20, or 100."
+      ],
+      "display_name": "Purple Coin Bundles",
+      "values": {
+        "off": 1,
+        "5": 5,
+        "10": 10,
+        "20": 20,
+        "100": 100
+      },
+      "default": 10,
+      "aliases": {
+        "1": 1
+      },
       "group": "Randomization Options"
     }
   }

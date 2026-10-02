@@ -7,8 +7,8 @@ import re
 
 
 def medium_logic():
-    return "{YamlCompare(Logic_Difficulty >= 1)}"
+    return "{YamlCompare(logic_difficulty >= 1)}"
 def hard_logic():
-    return "{YamlCompare(Logic_Difficulty == 2)}"
-def needs_purple_coins(galaxy):
-    return f"{{OptionCount(|{galaxy} Purple Coin|, Purple_Coin_Count)}}"
+    return "{YamlCompare(logic_difficulty == 2)}"
+def needs_purple_coins(world: World, galaxy:str):
+    return f"{{ItemValue({galaxy} PC:{world.options.purple_coin_count})}}"
