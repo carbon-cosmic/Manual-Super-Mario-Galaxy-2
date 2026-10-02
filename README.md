@@ -17,7 +17,7 @@ These lock access to the different worlds of the game. One will be given as a st
 ### Movement
 Seven of Mario's abilities can be randomized. These are:
  - Spin: Skating is included. Most other actions that involve shaking the remote aren't, but if you're not sure, feel free to ask!
- - Ground Pound: Diving underwater is included.
+ - Ground Pound
  - Backflip
  - Sideflip
  - Triple Jump: This includes Double Jump.
